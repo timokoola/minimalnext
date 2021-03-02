@@ -25,7 +25,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <p className="color-quinary | text-major">Hop</p>
+        <p className="color-ternary | text-300">Hop</p>
       </footer>
     </div>
   );

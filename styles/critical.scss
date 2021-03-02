@@ -61,21 +61,19 @@ h4 {
 
 ::-webkit-scrollbar-track {
   background-color: transparent;
-  border: 1px solid get-color("dark-glare");
+  border: 1px solid get-color("primary-dark");
   border-radius: 0.25rem;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: get-color("dark");
+  background-color: get-color("primary-dark");
   border-radius: 0.25rem;
 }
 
 // Import blocks
-@import "blocks/definition-group";
 
 // Import utilities
 @import "utilities/flow";
-@import "utilities/panel";
 @import "utilities/radius";
 @import "utilities/site-wrap";
 @import "utilities/visually-hidden";
