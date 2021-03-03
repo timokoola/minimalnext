@@ -30,8 +30,8 @@ $gorko-size-scale: (
  * You can also use them to power borders, fills or shadows, for example.
  */
 $gorko-colors: (
-  "dark": #000,
-  "dark-shade": #222,
+  "dark": #222,
+  "dark-shade": #000,
   "primary-dark": #16697a,
   "light": #ede7e3,
   "primary": #489fb5,
@@ -63,8 +63,7 @@ $gorko-config: (
   "font": (
     "items": (
       "base": "'MontSerrat', sans-serif",
-      "sans":
-        '"Lato", Roboto, "Helvetica Neue", Arial, sans-serif',
+      "sans": '"Lato", Roboto, "Helvetica Neue", Arial, sans-serif',
     ),
     "output": "standard",
     "property": "font-family",
